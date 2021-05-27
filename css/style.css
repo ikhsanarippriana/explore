@@ -1,0 +1,318 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+nav{
+    transition: 0.5s;
+    background-color: transparent;
+    line-height: 50px;
+}
+
+.navbar .navbar-brand{
+    color: rgb(0, 255, 251);
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(0, 255, 251);
+}
+
+.navbar .navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+.navbar .navbar-toggler:hover {
+    color: rgb(0, 255, 251);
+}
+
+.navbar-nav .nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(0, 255, 251);
+}
+
+.btn-custom{
+    padding: 15px;
+    color: white;
+    width: 200px;
+}
+
+.bg-default{
+    background-color: #42455a;
+}
+
+.bg-gainsboro {
+    background-color: gainsboro;
+}
+
+.bg-sky{
+    background-color: rgb(0, 255, 251);
+    color: white !important;
+}
+
+.bg-sky:hover {
+    background-color: rgb(2, 187, 184);
+}
+
+.jumbotron{
+    margin-top: -80px;
+    background-image: url(../img/bali.jpg);
+    background-size: cover;
+    max-height: 780px;
+    height: 780px;
+}
+
+.jumbotron .container {
+    transform: translateY(70%);
+}
+
+.jumbotron .title-1 {
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.jumbotron h2 span{
+    color: rgb(0, 255, 251);
+}
+
+.thumb-header{
+    width: 40%;
+    height: 40%;
+    box-shadow: 0 50px 50px black;
+}
+
+.scrolling-active {
+    background-color: #19233D;
+    line-height: 30px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.scrolling-active .navbar-brand{
+    color: rgb(0, 255, 251);
+}
+
+.scrolling-active .navbar-brand:before,
+.scrolling-active .navbar-brand:after,
+.scrolling-active .navbar-toggler,
+.scrolling-active .navbar-nav .nav-link{
+    color: white !important;
+}
+
+#main-content {
+    color: black;
+}
+
+#main-content h2 {
+    font-weight: bold;
+    color: rgb(0, 255, 251);
+}
+
+#main-content h3 {
+    font-weight: bold;
+    color: #19233D;
+}
+
+#main-content #destination .destination-1 {
+    background-image: url(../img/bali.jpg);
+    background-size: cover;
+}
+
+#main-content #destination .destination-2 {
+    background-image: url(../img/wakatobi.jpg);
+    background-size: cover;
+}
+
+#main-content #destination .destination-3 {
+    background-image: url(../img/raja_ampat.jpg);
+    background-size: cover;
+}
+
+#main-content #destination .destination-4 {
+    background-image: url(../img/komodo.jpg);
+    background-size: cover;
+}
+
+#main-content #destination .card-body {
+    margin-top: 200px;
+    max-height: 100% !important;
+}
+
+#main-content #destination .card-body span i {
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.main-1, .main-2,
+.main-3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-3 {
+    margin-bottom: 0;
+    padding: 100px;
+}
+
+.picture-1, .picture-2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+.picture-1 {
+    width: 344px;
+    height: 340px;
+}
+
+.picture-2 {
+    width: 200px;
+    height: 194px;
+}
+
+.main-contact{
+    background-color: #19233D;
+}
+
+.main-contact .row .col {
+    position: relative;
+}
+
+.main-contact .row i{
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.main-contact .row i:after {
+    content: "";
+    border-right: 2px solid white;
+    margin: 0 10px;
+}
+
+.main-contact .row a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+
+.gobtn{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: rgb(0, 255, 251);
+    text-align: center;
+    display: none;
+    transition: 0.5s;
+    transition-property: transform background-color;
+}
+
+.gobtn:hover {
+    transform: scale(1.1);
+    background-color: #19233D;
+}
+
+.gobtn i{
+    margin: 15px auto;
+}
+
+@media (max-width: 576px) { 
+    .btn-custom {
+        padding: 10px;
+        max-width: 140px;
+    }
+
+    .jumbotron .container {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    nav{
+        line-height: 40px;
+    }
+
+    .jumbotron {
+        max-height: 500px;
+    }
+
+    .lead {
+        font-size: 16px;
+    }
+    .jumbotron h2 {
+        font-size: 40px;
+    }
+
+    .picture-1 {
+        width: 250px;
+        height: 244px;
+    }
+
+    .picture-2 {
+        width: 150px;
+        height: 144px;
+    }
+
+    .main-content-1 .row h2 {
+        padding: 20px 0;
+    }
+
+    .main-contact .row .spacing-contact-1,
+    .main-contact .row .spacing-contact-2{
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 992px) { 
+
+    .jumbotron {
+        height: 750px;
+    }
+
+    .jumbotron .container {
+        transform: translateY(50%);
+    }
+
+    .thumb-header{
+        width: 47%;
+        height: 47%;
+    }
+
+    .btn-custom {
+        width: 170px;
+    }
+
+    .main-contact .row i:after {
+        border-right: none;
+    }
+
+    .main-contact .row .spacing-contact-2{
+        margin-top: 10px;
+    }
+}
