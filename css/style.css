@@ -85,7 +85,7 @@ nav{
 }
 
 .jumbotron .container {
-    transform: translateY(70%);
+    transform: translateY(70%) !important;
 }
 
 .jumbotron .title-1 {
@@ -173,6 +173,10 @@ nav{
     padding: 100px;
 }
 
+#contact {
+    padding: 100px;
+}
+
 .picture-1, .picture-2{
     margin: 0;
     padding: 0;
@@ -255,10 +259,6 @@ nav{
         max-width: 140px;
     }
 
-    .jumbotron .container {
-        margin-top: 50px;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -269,6 +269,10 @@ nav{
 
     .jumbotron {
         max-height: 500px;
+    }
+
+    .jumbotron .container {
+        margin-top: 100px !important;
     }
 
     .lead {
@@ -307,7 +311,7 @@ nav{
     }
 
     .jumbotron .container {
-        transform: translateY(50%);
+        transform: translateY(70%) !important;
     }
 
     .thumb-header{
