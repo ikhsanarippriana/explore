@@ -15,12 +15,12 @@ nav{
 }
 
 .navbar .navbar-brand{
-    color: rgb(0, 255, 251);
-    text-shadow: 1px 1px 1px black;
+    color: rgb(4, 174, 171);
+    text-shadow: .5px .5px 1px rgb(155, 155, 155);
 }
 
 .navbar .navbar-brand:hover {
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .navbar .navbar-toggler{
@@ -29,7 +29,7 @@ nav{
 }
 
 .navbar .navbar-toggler:hover {
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .navbar-nav .nav-link{
@@ -39,7 +39,7 @@ nav{
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .btn-custom{
@@ -57,22 +57,22 @@ nav{
 }
 
 .bg-sky{
-    background-color: rgb(0, 255, 251);
+    background-color: rgb(4, 174, 171);
     color: white !important;
 }
 
 .bg-sky:hover {
-    background-color: rgb(2, 187, 184);
+    background-color: rgb(4, 121, 119);
 }
 
 .bg-outline-sky{
-    border: 2px solid rgb(0, 255, 251);
+    border: 2px solid rgb(4, 174, 171);
     background-color: transparent;
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .bg-outline-sky:hover {
-    background-color: rgb(0, 255, 251);
+    background-color: rgb(4, 174, 171);
     color: white !important;
 }
 
@@ -93,7 +93,7 @@ nav{
 }
 
 .jumbotron h2 span{
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .thumb-header{
@@ -109,7 +109,7 @@ nav{
 }
 
 .scrolling-active .navbar-brand{
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 .scrolling-active .navbar-brand:before,
@@ -125,7 +125,7 @@ nav{
 
 #main-content h2 {
     font-weight: bold;
-    color: rgb(0, 255, 251);
+    color: rgb(4, 174, 171);
 }
 
 #main-content h3 {
@@ -237,7 +237,7 @@ nav{
     height: 50px;
     width: 50px;
     border-radius: 20%;
-    background-color: rgb(0, 255, 251);
+    background-color: rgb(4, 174, 171);
     text-align: center;
     display: none;
     transition: 0.5s;
